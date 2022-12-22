@@ -20,7 +20,7 @@ namespace en_yeni_form
         static DataSet ds;
 
 
-        public static string SqlCon = @"Data Source=DESKTOP-P1MLTOO\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
+        public static string SqlCon = @"Data Source=OKAN\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
         public static string UserSession = "";
       //public static string RankSession = "";
         public putin()
@@ -58,11 +58,11 @@ namespace en_yeni_form
             dr = cmd.ExecuteReader();
 
 
-         //   RankSession = Rank;
+         //   RankSession = Rank; 
              UserSession = textBox1.Text;
             if (dr.Read())
             {
-                if (UserSession == "Okan")
+                if (UserSession == "tesla")
                 {
                       this.Hide();
                   
@@ -106,6 +106,11 @@ namespace en_yeni_form
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }

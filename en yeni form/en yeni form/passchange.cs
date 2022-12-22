@@ -14,14 +14,14 @@ namespace en_yeni_form
 {
     public partial class passchange : Form
     {
-
+        
 
         static SqlConnection con;
         static SqlDataAdapter da;
         static SqlCommand cmd;
         static DataSet ds;
         static SqlDataReader dr;
-        public static string SqlCon = @"Data Source=DESKTOP-P1MLTOO\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
+        public static string SqlCon = @"Data Source=OKAN\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
         public static string UserSession = "";
 
         public int sonuc = 0;

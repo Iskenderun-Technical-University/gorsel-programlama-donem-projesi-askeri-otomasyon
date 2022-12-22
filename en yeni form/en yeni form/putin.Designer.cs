@@ -49,7 +49,7 @@ namespace en_yeni_form
             this.textBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox1.Location = new System.Drawing.Point(319, 322);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 53);
+            this.textBox1.Size = new System.Drawing.Size(324, 44);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -61,8 +61,9 @@ namespace en_yeni_form
             this.textBox2.Location = new System.Drawing.Point(319, 406);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(324, 53);
+            this.textBox2.Size = new System.Drawing.Size(324, 44);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -93,7 +94,7 @@ namespace en_yeni_form
             // pictureBox1
             // 
             this.pictureBox1.Image = global::en_yeni_form.Properties.Resources.ee___Kopya;
-            this.pictureBox1.Location = new System.Drawing.Point(302, 322);
+            this.pictureBox1.Location = new System.Drawing.Point(319, 302);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(21, 24);
             this.pictureBox1.TabIndex = 4;
@@ -103,7 +104,7 @@ namespace en_yeni_form
             // pictureBox2
             // 
             this.pictureBox2.Image = global::en_yeni_form.Properties.Resources.ee___Kopya1;
-            this.pictureBox2.Location = new System.Drawing.Point(302, 406);
+            this.pictureBox2.Location = new System.Drawing.Point(319, 387);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(24, 22);
             this.pictureBox2.TabIndex = 5;
@@ -113,7 +114,7 @@ namespace en_yeni_form
             // 
             this.textBox3.Location = new System.Drawing.Point(459, 420);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 6;
             // 
             // putin
@@ -121,10 +122,10 @@ namespace en_yeni_form
             this.AcceptButton = this.button1;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Red;
-            this.BackgroundImage = global::en_yeni_form.Properties.Resources.Opera_Anlık_Görüntü_2022_10_31_213047_www_youtube_com___Kopya___Kopya;
+            this.BackgroundImage = global::en_yeni_form.Properties.Resources.WhatsApp_Image_2022_05_16_at_00_174;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(968, 859);
+            this.ClientSize = new System.Drawing.Size(968, 788);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);

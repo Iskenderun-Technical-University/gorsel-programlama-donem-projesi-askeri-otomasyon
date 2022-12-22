@@ -22,7 +22,7 @@ namespace en_yeni_form
 
 
 
-        public static string SqlCon = @"Data Source=DESKTOP-P1MLTOO\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
+        public static string SqlCon = @"Data Source=OKAN\SQLEXPRESS;Initial Catalog=SSForce;Integrated Security=True";
 
 
         public repooooo()
